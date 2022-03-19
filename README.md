@@ -1,2 +1,2 @@
-# designing-artifacts-2015
-This is the website resulting from taking an online class called "Designing Artifacts"
+# Designing Artifacts (2015, archived)
+This is the website resulting from taking an online class called "Designing Artifacts." This repository is an archive, you can access the site here: https://stairjoke.github.io/designing-artifacts-2015/

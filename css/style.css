@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/*
+	AUTHOR & COPYRIGHT: 2014, Wenzel Massag (wenzelmassag.de)
+*/
+.default-state {
+  /* do not use without name-space */ }
+
+.center {
+  text-align: center; }
+
+w
+.empty {
+  font-size: 15px;
+  min-height: 2em;
+  min-width: 2em;
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(255, 0, 0, 0.3);
+  text-align: center;
+  line-height: 2em;
+  font-family: monospace;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7); }
+
+/*
+	Bright. High contrast, warm, reddish-yellow, but not orange. No blue.
+*/
+/* For the reset stylesheet */
+/* sans-serif, lightly condensed, edgy with some sharp corners */
+/* Available Font weights in FF Kava Pro: 100, 300, 400, 700, 900 */
+/* FF Kava Pro supports normal and italic */
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 16px; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 16px 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+html {
+  padding: 0;
+  margin: 0; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "FF Kava Pro", ff-kava-web-pro, "Avenir Next Condensed", "Arial Narrow", Helvetica, sans-serif;
+  line-height: 1.32em; }
+
+small {
+  font-size: 13.6px; }
+
+.ns--content-block {
+  min-height: 84vh;
+  margin: 0;
+  padding: 48px;
+  box-sizing: border-box; }
+  .ns--content-block:last-child {
+    min-height: 100vh; }
+  .ns--content-block:after {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    content: " ";
+    clear: both; }
+  .ns--content-block img {
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 4px; }
+  .ns--content-block img.half-left {
+    width: 50%;
+    max-width: 320;
+    float: left; }
+  .ns--content-block img.half-right {
+    width: 50%;
+    max-width: 288px;
+    margin-left: 16px;
+    float: right; }
+  .ns--content-block h1, .ns--content-block h2, .ns--content-block h3 {
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 120%;
+    border-bottom: solid 2px #f7e200;
+    font-style: normal;
+    margin-bottom: 16px;
+    text-align: center; }
+  .ns--content-block h2, .ns--content-block h3 {
+    font-size: 32px;
+    border-bottom: none;
+    margin: 64px auto 24px auto;
+    max-width: 640px;
+    text-align: left; }
+  .ns--content-block h3 {
+    font-size: 17.6px;
+    font-weight: 500;
+    margin: 48px auto 0 auto;
+    border-bottom: solid 1px #e0e0e0; }
+  .ns--content-block p, .ns--content-block ul, .ns--content-block ol {
+    max-width: 640px;
+    margin: 8px auto 28.624px auto;
+    counter-reset: item; }
+    .ns--content-block p ul, .ns--content-block ul ul, .ns--content-block ol ul {
+      margin: 0 0 16px 0; }
+      .ns--content-block p ul li, .ns--content-block ul ul li, .ns--content-block ol ul li {
+        margin-left: 16px; }
+    .ns--content-block p.start5, .ns--content-block ul.start5, .ns--content-block ol.start5 {
+      counter-reset: item 4; }
+    .ns--content-block p img.icon, .ns--content-block ul img.icon, .ns--content-block ol img.icon {
+      height: 1em;
+      width: auto;
+      margin: 0 0.25em;
+      padding: 0;
+      position: relative;
+      top: 2px; }
+  .ns--content-block ol > li {
+    margin-bottom: 24px;
+    margin-left: 3px;
+    list-style: none;
+    position: relative; }
+    .ns--content-block ol > li:before {
+      content: counter(item);
+      counter-increment: item;
+      position: absolute;
+      left: -48px;
+      top: -4.8px;
+      background-color: #ff665e;
+      color: #fafafa;
+      font-size: 17.6px;
+      padding: 8px;
+      line-height: 17.6px;
+      height: 16px;
+      width: 16px;
+      border-radius: 16px;
+      text-align: center; }
+  .ns--content-block blockquote {
+    font-size: 20.8px;
+    padding-top: 16px;
+    font-style: italic;
+    text-align: center;
+    max-width: 640px;
+    margin: 8px auto 16px auto; }
+    .ns--content-block blockquote:before {
+      content: "“"; }
+    .ns--content-block blockquote:after {
+      content: "”"; }
+  .ns--content-block .list-style {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 8px;
+    padding-top: 6.4px;
+    border-radius: 1em;
+    background-color: #ff665e;
+    color: #fafafa;
+    height: 1em;
+    width: 1em;
+    text-align: center; }
+  .ns--content-block.wenzelmassag {
+    min-height: 0;
+    background-color: #ff665e;
+    color: #fafafa;
+    text-align: center; }
+    .ns--content-block.wenzelmassag a {
+      color: #fff268; }
+      .ns--content-block.wenzelmassag a:link, .ns--content-block.wenzelmassag a:active, .ns--content-block.wenzelmassag a:visited {
+        color: #fff268; }
+      .ns--content-block.wenzelmassag a:hover, .ns--content-block.wenzelmassag a:focus {
+        color: #f7e200; }
+    .ns--content-block.wenzelmassag p {
+      margin: 48px auto; }
+    .ns--content-block.wenzelmassag article {
+      display: inline-block;
+      margin: 7% 0; }
+      .ns--content-block.wenzelmassag article h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 64px;
+        border: none;
+        font-weight: 700; }
+        @media (max-width: 640px) {
+          .ns--content-block.wenzelmassag article h1 {
+            font-size: 32px; } }
+        .ns--content-block.wenzelmassag article h1 a {
+          white-space: nowrap;
+          color: #fafafa; }
+          .ns--content-block.wenzelmassag article h1 a:link, .ns--content-block.wenzelmassag article h1 a:active, .ns--content-block.wenzelmassag article h1 a:visited {
+            text-decoration: none;
+            color: #fafafa; }
+          .ns--content-block.wenzelmassag article h1 a:hover, .ns--content-block.wenzelmassag article h1 a:focus {
+            text-decoration: underline;
+            color: #fafafa; }
+      .ns--content-block.wenzelmassag article blockquote {
+        font-size: 17.6px;
+        padding-top: 16px; }
+    .ns--content-block.wenzelmassag .navigation {
+      font-size: 17.6px; }
+      .ns--content-block.wenzelmassag .navigation a {
+        color: #fafafa;
+        text-decoration: none;
+        margin: 16px;
+        padding: 8px;
+        border-radius: 100%;
+        display: inline-block;
+        min-width: 48px;
+        height: 48px;
+        text-align: center;
+        line-height: 50px; }
+        .ns--content-block.wenzelmassag .navigation a.active {
+          background: white;
+          color: #ff665e; }
+  .ns--content-block.full-height {
+    min-height: 100vh; }
+
+footer {
+  padding: 48px; }
+
+.week2 .latent_need {
+  font-style: italic; }
+
+.week4 p.large-image {
+  width: 100%;
+  max-width: 980px; }
+.week4 img.large {
+  width: 100%;
+  max-width: 980px; }
+
+/*# sourceMappingURL=style.css.map */
